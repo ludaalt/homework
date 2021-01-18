@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<section>
+		<div class="wrap">			
+			<ul class="menu list">
+				<li class="menu-item">Элемент меню</li>
+				<li class="menu-item">Элемент меню с наведением</li>
+				<li class="menu-item">Еще один элемент, у которого очень длинный текст</li>
+				<li class="menu-item">Еще один элемент</li>
+				<li class="menu-item">Еще один элемент</li>
+			</ul>
+		</div>
+	</section>
+	<section>
+		<div class="wrap">
+			<form class="form">
+				<div>
+					<p class="form-title">Регистрация</p>
+				</div>
+				<div class="form-mainpart">
+					<p>
+						<label for="email-field">E-mail</label>
+						<input type="email" id="email-field" name="" value="" placeholder="example@site.domain" 
+						required >
+					</p>
+					<div class="pass-wrap">
+						<p>
+							<label for="password-field">Пароль</label>
+							<input type="password" id="password-field" name="" value="" placeholder="password" required>
+						</p>
+						<p>
+							<label for="password-repeat">Повторите пароль</label>
+							<input type="password" id="password-repeat" name="" value="" placeholder="password" required>
+						</p>
+					</div>
+					<p>
+						<label for="user-name">ФИО</label>
+						<input type="text" id="user-name" name="" value="" placeholder="Игорев Игорь Игоревич" 
+						required>
+					</p>
+					<p>
+						<label for="user-age">Возраст</label>
+						<input type="text" id="user-age" name="" value="" placeholder="18" required
+						pattern="#^[0-9]+$#">
+					</p>					
+				</div>
+				<div class="form-footer">
+					<p><button type="submit" class="button darkgray-button">Отправить</button></p>
+					<p><button type="reset" class="button lightgray-button">Отмена</button></p>
+				</div>				
+			</form>
+		</div>
+	</section>
+	<section>
+		<div class="wrap">
+			<ul class="stepper list">
+				<li class="stepper-item">Шаг 1</li>
+				<li class="stepper-item current-stepper-item">Шаг 2</li>
+				<li class="stepper-item">Шаг 3</li>
+			</ul>
+		</div>
+	</section>	
+</body>
+</html>
